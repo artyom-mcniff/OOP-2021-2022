@@ -17,15 +17,7 @@ Install the above software. Create an empty folder on your computer. Right click
 To clone the repository for the course type:
 
 ```bash
-git clone http://github.com/skooter500/OOP-2020-2021
-```
-
-Make a bin folder for your compiled Java classes. Compiled java files have a .class extension:
-
-cd to the OOP-2020-2021/java folder and type:
-
-```bash
-mkdir bin
+git clone http://github.com/skooter500/OOP-2021-2022
 ```
 
 To compile and run the code, type:
