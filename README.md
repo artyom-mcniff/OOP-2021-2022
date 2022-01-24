@@ -28,7 +28,7 @@ Resources
 - End of Year exam - 50%
 
 # Last years course
-- https://github.com/skooter500/OOP-2020-2021
+- https://github.com/skooter500/OOP-2021-2022
 
 # Previous Years Lab Tests
 - https://github.com/skooter500/OOP-LabTest-2020-Starter
@@ -40,6 +40,10 @@ Resources
 - https://github.com/skooter500/OOP-LabTest1-2016
 
 # Week 1 - Introduction
+
+## Lecture
+- [Introduction Slides](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/EYXKcGlJFllBoLfJ_GjdH8ABu2OQCKyRsXuqlPqb3yXMtA?e=7hN0YC)
+- [Recording of the class](https://tudublin-my.sharepoint.com/personal/bryan_duggan_tudublin_ie/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbryan%5Fduggan%5Ftudublin%5Fie%2FDocuments%2FRecordings%2FOOP%20Class%2D20220124%5F123041%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fbryan%5Fduggan%5Ftudublin%5Fie%2FDocuments%2FRecordings)
 
 ## Tutorial
 - [Coding Bat](https://codingbat.com/)
@@ -60,7 +64,7 @@ Install the software you will need for this module and set up your path to the J
 Firstly fork *this* repository by clicking the fork button above, so that you get your own copy of the course repo to work on this semester. Now create a new empty folder on your computer somewhere right click on the folder and choose git bash here. Alternatively you can start the bash and cd to the new folder. To clone the repository for your fork:
 
 ```bash
-git clone https://github.com/YOURGITUSERNAME/OOP-2020-2021
+git clone https://github.com/YOURGITUSERNAME/OOP-2021-2022
 ```
 
 Replace YOURGITUSERNAME with your github username. You can also copy the URL to the repo from your browser and paste it into the console. To paste into the bash on Windows is right click. You can use Cmd + C, Cmd + V on the Mac.
@@ -68,23 +72,23 @@ Replace YOURGITUSERNAME with your github username. You can also copy the URL to 
 Now cd into the repo and check the origin and upstream remotes are set up correctly
 
 ```bash
-cd OOP-2020-2021
+cd OOP-2021-2022
 git remote -v
 ```
 
 You should see something like this:
 
 ```bash
-origin  https://github.com/YOURGITUSERNAME/OOP-2020-2021 (fetch)
-origin  https://github.com/YOURGITUSERNAME/OOP-2020-2021 (push)
-upstream  https://github.com/skooter500/OOP-2020-2021 (fetch)
-upstream  https://github.com/skooter500/OOP-2020-2021 (push)
+origin  https://github.com/YOURGITUSERNAME/OOP-2021-2022 (fetch)
+origin  https://github.com/YOURGITUSERNAME/OOP-2021-2022 (push)
+upstream  https://github.com/skooter500/OOP-2021-2022 (fetch)
+upstream  https://github.com/skooter500/OOP-2021-2022 (push)
 ```
 
 If you don't see the upstream remote, you can set it up by typing
 
 ```bash
-git remote add upstream https://github.com/skooter500/OOP-2020-2021
+git remote add upstream https://github.com/skooter500/OOP-2021-2022
 ```
 You can read more about forking a git repository and setting up the upstream remote in [this article](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 
@@ -157,7 +161,7 @@ Checkout the branch HelloProcessing by typing
 git checkout HelloProcessing from the bash
 ```
 
-In Visual Studio Code, choose File | Open Folder and open the OOP-2020-2021 folder. Press F5 and if all goes well, you should see something that looks like this:
+In Visual Studio Code, choose File | Open Folder and open the OOP-2021-2022 folder. Press F5 and if all goes well, you should see something that looks like this:
 
 ![Hello Processing](images/hello.png)
 
